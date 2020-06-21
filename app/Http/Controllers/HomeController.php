@@ -13,7 +13,7 @@ class HomeController extends Controller
     {
         //Return data to the view
         return view('invoices', [
-            'title' => 'Liste des Factures',
+            'title' => 'Liste de Factures',
         ]);
     }
 
